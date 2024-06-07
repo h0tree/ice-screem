@@ -524,7 +524,7 @@ top: 395px;
     }
 
     .header {
-        padding: 306px 21px 0 18px;
+        padding: 306px 21px 91px 18px;
         background: url(../images/ice-cream.png) no-repeat center top, url(../images/background1.jpg);
         background-size: 227px auto, cover;
 
@@ -592,10 +592,122 @@ top: 395px;
         margin-left: 0;
     }
 
+    .traditions {
+        background: url(../images/milk1-mobile.png) no-repeat left top -45px #DAEEFF;
+        padding: 94px 20px 32px;
+    }
+
+    .traditions::before {
+        display: none;
+    }
+
+    .traditions-title {
+    font-size: 42px;
+    line-height: 137%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 0 20px 0;
+    }
+
+    .wrapper-text {
+        display: block;
+    }
+
+    .traditions-text:first-of-type {
+        margin-top: 0;
+    }
+
+    .traditions-text{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .traditions-text:last-of-type {
+        text-align: left;
+        background: url(../images/milk2-mobile.png) no-repeat right top -10px;
+        padding-top: 75px;
+        margin-top: -10px;
+        margin-right: -20px;
+        padding-right: 20px;
+    }
+
+    .select {
+        padding: 50px 20px 109px;
+    }
+
+    .select-title {
+    font-size: 36px;
+    line-height: 137%;
+    text-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 0 133px 0;
+    }
+
+    .select-list {
+        row-gap: 120px;
+    }
+
+    .select-image {
+        width: 244px;
+        top: -85px
+    }
+
+    .select-list-item {
+        width: 281px;
+        padding: 0 18px 39px;
+    }
+
+    .select-subtitle {
+        margin: 116px 0 22px;
+        font-size: 30px;
+        line-height: 53px;
+        color: #8008A9;
 
 
+    }
 
-    main {
+    .select-text {
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 32px;
+
+    }
+
+    .subscribe-form {
+        background: none;
+        display: block;
+        min-height: auto;
+    }
+
+    .subscribe {
+        padding: 344px 20px 52px 20px;
+    }
+
+    .subscribe-input {
+        padding: 17px 30px 19px 26px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-button {
+        width: 280px;
+        padding: 16px 17px 15px 27px;
+    }
+
+
+    .magic {
+        padding-bottom: 52px;
+    }
+
+    .taste-button {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+
+    .taste-button-text {
         display: none;
     }
 }
