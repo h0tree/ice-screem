@@ -5,3 +5,4 @@ burger.addEventListener('click', () => {
     menu.classList.toggle('main-nav-open');
     burger.classList.toggle('burger-close');
 });
+
