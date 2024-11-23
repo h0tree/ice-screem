@@ -25,7 +25,7 @@ picture {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background: url(/images/ice-cream2.png) no-repeat right;
+    background: url(images/ice-cream2.png) no-repeat right;
     min-height: 807px;
     width: 100%;
     background-color: #FF8093CC;
@@ -35,7 +35,7 @@ picture {
 .price-section {
     padding-top: 175px;
     min-height: 2493px;
-    background: url(/images/line2.png) #FEAFC3 10px top;
+    background: url(images/line2.png) #FEAFC3 10px top;
 }
 
 .price {
