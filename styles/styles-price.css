@@ -1,0 +1,210 @@
+
+
+picture {
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 359px;
+    top: 65px;
+}
+
+.title-text {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: #FFFFFF;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 359px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: url(/images/ice-cream2.png) no-repeat right;
+    min-height: 807px;
+    width: 100%;
+    background-color: #FF8093CC;
+    margin: 0;
+}
+
+.price-section {
+    padding-top: 175px;
+    min-height: 2493px;
+    background: url(/images/line2.png) #FEAFC3 10px top;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.ice-sell {
+    width: 1400px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 79px;
+    column-gap: 24px;
+}
+
+.ice-sell-prive {
+    width: 384px;
+    height: 434px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #FFFFFF;
+    background-position: top center;
+    display: grid;
+  /* Будет создано 3 колонки */
+    grid-template-columns: 24px 156px 180px 24px;
+  /* Будет создано 3 ряда */
+    grid-template-rows: 226px 40px 68px 58px;
+    justify-content: center;
+    grid-template-areas:
+    "padding img img padding1"
+    "padding title title padding1"
+    "padding sub sub padding1"
+    "padding price button padding1";
+}
+
+.icon-sell-img {
+    grid-area: img;
+    width: 236px;
+    height: 236px;
+    position: relative;
+    left: 50px;
+    top: -57px;
+}
+.card-title {
+    grid-area: title;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+}
+.card-sub {
+    grid-area: sub;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+}
+.card-price {
+    grid-area: price;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E44277;
+}
+
+.card-button{
+    grid-area: button;
+    background: #FFFFFF;
+    border: 3px solid #D23166;
+    border-radius: 60px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #D23166;
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+}
+
+.card-button:hover  {
+    background-color:  #E44277;
+    border: 0;
+    color: #FFFFFF;
+}
+.card-button:active  {
+    border: 0;
+    color: #FFFFFF;
+    background: rgba(210, 49, 102, 0.7);
+    border: 3px solid rgba(210, 49, 102, 0.7);
+}
+
+.order-form {
+    width: 100%;
+    min-height: 787px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 174px;
+    padding-bottom: 163px;
+}
+
+.form-title {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #2D3440;
+}
+
+.form {
+    background: url(/images/form-fon.png);
+    border-radius: 16px;
+    width: 1200px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+
+.input-form {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #565C66;
+    border-radius: 60px;
+    width: 387px;
+    height: 70px;
+    padding-left: 22px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(45, 52, 64, 0.6);
+}
+.input__button {
+    width: 387px;
+    height: 71px;
+    background-color: #E44277;
+    border-radius: 60px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.input__button:hover {
+    background-color:  #df5683;
+}
