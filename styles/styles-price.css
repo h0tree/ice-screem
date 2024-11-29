@@ -160,7 +160,7 @@ picture {
 }
 
 .form {
-    background: url(/images/form-fon.png);
+    background: url(images/form-fon.png);
     border-radius: 16px;
     width: 1200px;
     height: 504px;
