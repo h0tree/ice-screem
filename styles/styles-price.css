@@ -25,7 +25,7 @@ picture {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background: url(/images/ice-cream2.png) no-repeat right;
+    background: url(../images/ice-cream2.png) no-repeat right;
     min-height: 807px;
     width: 100%;
     background-color: #FF8093CC;
@@ -35,7 +35,7 @@ picture {
 .price-section {
     padding-top: 175px;
     min-height: 2493px;
-    background: url(/images/line2.png) #FEAFC3 10px top;
+    background: url(../images/line2.png) #FEAFC3 10px top;
 }
 
 .price {
@@ -161,7 +161,7 @@ picture {
 }
 
 .form {
-    background: url(/images/form-fon.png);
+    background: url(../images/form-fon.png);
     border-radius: 16px;
     width: 1200px;
     height: 504px;
@@ -213,7 +213,7 @@ picture {
 @media (max-width: 1239px) {
 
     .title {
-        background: url(/images/ice-cream2.png) no-repeat;
+        background: url(../images/ice-cream2.png) no-repeat;
         background-position: top;
         background-size: 500px;
         background-color: #FEAFC3;
@@ -244,7 +244,7 @@ picture {
 
     .price-section {
         min-height: 2493px;
-        background: url(/images/line2.png) #FEAFC3 10px top;
+        background: url(../images/line2.png) #FEAFC3 10px top;
         display: flex;
         flex-direction: column;
     }
@@ -325,7 +325,7 @@ picture {
         flex-direction: column;
         width: auto;
         padding: 0;
-        background: url(/images/form-fon.png) 100%;
+        background: url(../images/form-fon.png) 100%;
     }
 
     .input-form {
